@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>com.zhku.jsj144.zk.Servlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Practice</servlet-name>
+    <servlet-class>com.zhku.jsj144.zk.Servlet.Practice</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadServletmore</servlet-name>
+    <servlet-class>com.zhku.jsj144.zk.Servlet.UploadServletmore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadServlet2</servlet-name>
+    <servlet-class>com.zhku.jsj144.zk.Servlet.UploadServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownloadServlet</servlet-name>
+    <servlet-class>com.zhku.jsj144.zk.Servlet.DownloadServlet</servlet-class>
+  </servlet>
+
+
+
+  
+
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Practice</servlet-name>
+    <url-pattern>/practice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServletmore</servlet-name>
+    <url-pattern>/uploadMore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet2</servlet-name>
+    <url-pattern>/upload2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadServlet</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+ 
+
+</web-app>
